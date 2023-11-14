@@ -1,0 +1,278 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cyan;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: rgb(0, 198, 198);
+    text-align: center;
+
+    font-family: takoma;
+    font-size: 3vw;
+}
+
+h1 {
+    color: rgb(0, 92, 128);
+}
+
+p {
+    font-size: x-large;
+    line-height: 150%;
+}
+
+img {
+    border-radius: 500px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px 10px;
+    padding: 10px;
+}
+
+.grid-container>div {
+    border-width: 5px;
+}
+
+
+/* Nav Styles */
+
+
+nav {
+    border-left: dashed;
+    border-width: 5px;
+    border-color: rgb(0, 92, 128);
+    background-color: rgba(16, 179, 179, 0.235);
+
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: rgba(16, 179, 179, 0.375);
+    width: 200px;
+}
+
+Li a:hover:not(.firstlink) {
+    font-size: larger;
+    background-color: rgba(16, 179, 179, 0.668);
+}
+
+span:hover:not(.About) {
+    color: rgb(10, 74, 99);
+}
+
+.twolinks {
+    list-style-type: none;
+    font-size: larger;
+    line-height: 2em;
+}
+
+.lione::marker {
+    content: "▶";
+    color: rgb(0, 92, 128);
+}
+
+.About,
+.ArtGallery {
+    position: relative;
+    left: 6px;
+    color: rgb(0, 92, 128);
+    font-weight: bold;
+}
+
+
+/* Artist Profile Styles */
+
+
+.Artist_Profile {
+    border: 1px dashed rgb(0, 92, 128);
+    background-color: rgb(16, 179, 179);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+    text-align: center;
+    color: rgb(0, 66, 92);
+
+    margin-right: 10px;
+}
+
+.Artist_Profile:hover {
+    transform: scale(1.01);
+}
+
+img.CPimg {
+    margin: 10px;
+    width: 80%;
+}
+
+
+/* Meet the Artist Styles */
+
+
+.Meet_the_Artist {
+    border: 1px dashed rgb(0, 128, 6);
+
+    background-color: rgb(96, 190, 68);
+    color: rgb(11, 83, 14);
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.Meet_the_Artist:hover {
+    transform: scale(1.01);
+}
+
+
+/* Favorite Fun Facts Styles */
+
+
+.Fun_Facts {
+    border: 1px dashed rgb(0, 32, 128);
+
+    background-color: rgb(57, 91, 200);
+    color: rgb(10, 26, 74);
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.Fun_Facts:hover {
+    transform: scale(1.01);
+}
+
+
+/* Favorite quote Styles */
+
+
+.Favorite_quote {
+    border: 1px dashed rgb(202, 111, 0);
+
+    background-color: rgb(202, 225, 69);
+    color: rgb(171, 98, 10);
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    line-height: 2em;
+}
+
+.Favorite_quote:hover {
+    transform: scale(1.01);
+}
+
+
+/* Favorite YouTubers Styles */
+
+
+.Favorite_YouTubers {
+    border: 1px dashed rgb(128, 0, 0);
+    background-color: rgb(255, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.Favorite_YouTubers:hover {
+    transform: scale(1.01);
+}
+
+.Favorite_YouTubers>h2 {
+    text-align: center;
+    color: white;
+}
+
+.YouTubers {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: rgb(255, 74, 74);
+}
+
+.YTimage {
+    margin-top: 25px;
+    margin-left: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+ul.YTli li::marker {
+    content: "▶";
+    color: white;
+}
+
+ul.YTli li {
+    padding: 1em;
+    font-size: 18px;
+}
+
+.kubzscouts {
+    background-color: rgb(195, 49, 49);
+    color: white;
+
+    margin-top: 10px;
+    margin-right: 20px;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.kubzscoutsimgdiv {
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.mrbeast {
+    background-color: rgb(195, 49, 49);
+    color: white;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.mrbeastimgdiv {
+    display: flex;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.KSimg,
+.MBimg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.YTusernames {
+    text-align: center;
+    font-size: x-large;
+}

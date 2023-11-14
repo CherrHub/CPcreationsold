@@ -1,0 +1,180 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cyan;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: rgb(0, 198, 198);
+    text-align: center;
+
+    font-family: takoma;
+    font-size: 3vw;
+}
+
+
+/* h1 Styles */
+
+
+h1 {
+    color: rgb(0, 92, 128);
+}
+
+.OCh1,
+.FAh1 {
+    text-align: center;
+}
+
+
+/* Nav Styles */
+
+
+nav {
+    border-left: dashed;
+    border-width: 5px;
+    border-color: rgb(0, 92, 128);
+    background-color: rgba(16, 179, 179, 0.235);
+
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: rgba(16, 179, 179, 0.375);
+    width: 200px;
+}
+
+Li a:hover:not(.secondlink) {
+    font-size: larger;
+    background-color: rgba(16, 179, 179, 0.668);
+}
+
+
+span:hover:not(.ArtGallery) {
+    color: rgb(10, 74, 99);
+}
+
+.twolinks {
+    list-style-type: none;
+    font-size: larger;
+    line-height: 2em;
+}
+
+
+.litwo::marker {
+    content: "▶";
+    color: rgb(0, 92, 128);
+}
+
+.About,
+.ArtGallery {
+    position: relative;
+    left: 6px;
+    color: rgb(0, 92, 128);
+    font-weight: bold;
+}
+
+
+/* Image Styles */
+
+
+img {
+    border-radius: 2%;
+}
+
+img:hover {
+    transform: scale(1.12);
+    padding: 10px;
+}
+
+
+/*--- Original Characters Styles */
+
+
+.originalcharacters {
+    background-color: rgb(55, 183, 188);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.originalcharacters>div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.BernieBalatasimg {
+    width: 255px;
+    height: 407px;
+}
+
+.Bernie_and_Breeimg {
+    width: 457px;
+    length: 374px;
+}
+
+.BreeBalatasimg {
+    width: 255px;
+    height: 407px;
+}
+
+
+/*--- Fan Arts Styles*/
+
+
+.fanarts {
+    background-color: rgb(55, 183, 188);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fanarts>div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.amphibiaimg {
+    width: 379px;
+    length: 210px;
+}
+
+.fnfimg {
+    width: 255px;
+    length: 170px;
+}
+
+.SUandTAWOGimg {
+    width: 395px;
+    length: 272px;
+}
+
+.HTFstwoaprilfoolsimg {
+    width: 442px;
+    length: 248px;
+}
+
+.bendyandaliceimg {
+    width: 190px;
+    length: 282px;
+}
+
+.BFFimg {
+    width: 378px;
+    length: 249px;
+}
